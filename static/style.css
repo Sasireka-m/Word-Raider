@@ -1,0 +1,82 @@
+/* Animated Gradient Background */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a1c4fd, #c2e9fb);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    padding: 30px;
+    color: #333;
+    min-height: 100vh;
+}
+
+/* Gradient Animation Keyframes */
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Input Styling */
+input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+    transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0 0 8px #6ab7ff;
+    outline: none;
+}
+
+/* Submit Button Styling */
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Header Styling */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+/* Link Button */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #0056b3;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #ffffffcc;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #e0e0e0;
+}
