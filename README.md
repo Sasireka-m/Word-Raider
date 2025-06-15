@@ -97,4 +97,4 @@ Feel free to use, modify, and share!
 ## 🙋‍♀️ Author
 
 **Sasireka M**  
-Made with ❤️ using Python and Flask
+Made with ❤️ using Python and Flask.
